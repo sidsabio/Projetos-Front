@@ -1,0 +1,29 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+#dark {
+
+
+    width: 97%;
+    height: 50%;
+
+}
+
+#bonfire {
+    display: block;
+    width: 15%;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 5%;
+
+}
+
+div {
+   
+}
