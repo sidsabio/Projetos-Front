@@ -1,0 +1,101 @@
+body {
+  background: rgb(245, 167, 50);
+  font: normal 20pt Arial;
+  background-image: linear-gradient(rgb(245, 167, 50), red);
+  /*background: rgb(43, 176, 253);*/
+  background-repeat: none;
+  background-size: cover;
+  height: 713px;
+  font-family: "Rubik", sans-serif;
+}
+header {
+  color: white;
+  text-align: center;
+
+  /*text-shadow: 0px 0px 5px rgb(255, 1, 1), 0px 0px 5px rgb(255, 0, 0);*/
+  text-shadow: -3.5px -3.5px 0 #b12349, 3.5px -3.5px 0 #b12349,
+    -3.5px 3.5px 0 #b12349, 3.5px 3.5px 0 #b12349;
+}
+section {
+  background: white;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+  background: linear-gradient(
+    white 50px,
+    white 50px,
+    white 100px,
+    black 100px,
+    black 150px,
+    white 150px
+  );
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font: 15pt white;
+  font-style: italic;
+  
+
+}
+#x {
+  color: rgb(22, 184, 22);
+  width: 50px;
+  height: 50px;
+  background: none;
+}
+#ano {
+  width: 100px;
+  margin-left: 4px;
+  height: 20px;
+}
+
+#x:hover {
+  background-color: rgba(192, 192, 192, 0);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#x:active {
+  background-color: #3e8e4100;
+  transform: translateY(4px);
+}
+
+#degrade1 {
+  font-weight: 800;
+  background: -webkit-linear-gradient(yellow, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #b12349;
+}
+#degrade2 {
+  font-weight: 800;
+  background: -webkit-linear-gradient(yellow, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #b12349;
+}
+#botao {
+  display: flex;
+  justify-content: center;
+  font: italic 20pt white;
+}
+#resultadotexto {
+  font-weight: 800;
+  background: -webkit-linear-gradient(yellow, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #b12349;
+}
+#formulario {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+}
